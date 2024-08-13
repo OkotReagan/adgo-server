@@ -10,7 +10,7 @@ require("./startup/config")();
 require("./startup/prod")(app);
 
 
-// Environment variables and this helps to set the port dynamically......
+// Environment variables and this helps to set the port dynamically........
 const port = process.env.PORT || 5008;
 
 const server = app.listen(port, () => {
